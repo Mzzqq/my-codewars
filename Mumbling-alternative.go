@@ -2,7 +2,7 @@ package main
 
 import "strings"
 
-func Accum(s string) string {
+func AccumAlternative(s string) string {
 	var result string
 
 	for i, char := range s {
